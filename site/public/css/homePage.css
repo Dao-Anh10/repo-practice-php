@@ -1,0 +1,149 @@
+.main {
+    width: 100%;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.section-form>#section-form-input {
+    position: relative;
+    margin-bottom: 30px;
+    padding: 30px 15px;
+    border-radius: 5px;
+    box-shadow: 5px 4px 10px -4px #959595;
+    background-color: #ededed;
+    text-align: center;
+}
+
+.section-form>.section-table {
+    background-color: #e1f6f5;
+    border-radius: 5px;
+    box-shadow: 5px 6px 13px -5px #959595;
+}
+
+.task-items>.task-item {
+    padding: 10px 20px;
+    font-size: 20px;
+}
+
+#section-form-input>.input-content {
+    padding: 5px;
+    width: 40%;
+}
+
+#section-form-input>span {
+    font-size: 19px;
+    font-weight: 700;
+}
+
+#section-form-input>.input-submit {
+    padding: 7px 12px;
+    background-color: blue;
+    color: aliceblue;
+    border-radius: 3px;
+    border: none;
+}
+
+.input-delete {
+    padding: 7px 12px;
+    background-color: red;
+    color: aliceblue;
+    border-radius: 3px;
+    border: none;
+}
+
+.task-item>.task-item-id {
+    font-weight: bold;
+}
+
+.task-item>.task-item-content {
+    margin-left: 20px;
+}
+
+.input-update {
+    float: right;
+    padding: 7px 12px;
+    background-color: green;
+    color: aliceblue;
+    border-radius: 3px;
+    border: none;
+}
+
+#btn-open-form {
+    padding: 7px 12px;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 3px;
+    border: none;
+}
+
+.input-delete-item {
+    float: right;
+    padding: 7px 12px;
+    background-color: red;
+    color: aliceblue;
+    border-radius: 3px;
+    border: none;
+    margin-left: 10px;
+}
+
+.section-button {
+    padding: 20px 0;
+}
+
+.d-none-form-update-item {
+    display: none;
+    background: white;
+    padding: 20px;
+    margin: 10px 0 0 40px;
+    width: 230px;
+    border: 1px solid;
+    border-radius: 3px;
+}
+
+.title-page {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.show-form-update {
+    display: block;
+}
+
+.input-alarm-time {
+    padding: 5px;
+    border: none;
+    background: bisque;
+}
+
+.account-dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+
+.select-action-user {
+    display: none;
+    position: absolute;
+    left: 15px;
+    margin-top: 5px;
+    width: 98px;
+    padding: 10px 10px;
+    background-color: white;
+    border: 0.05px solid gray;
+    text-align: left;
+}
+
+.show-dropdown {
+    display: block;
+}
+
+.select-action-user a {
+    text-decoration: none;
+}
+
+.have-user::before {
+    color: #638b26;
+}
